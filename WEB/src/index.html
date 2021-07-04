@@ -8,25 +8,15 @@
     </head>
     <body>
 
-    <div class="sidebar">
-        <h2>Новости</h2>
-        <span>24.06.2021</span>
-        <p>Набор на соревнавания</p>
-        <a href="#">читать</a>
-    </div>
+    @@include('html-parts/header.html')
 
+    <main class="main">
+        <div class="container container_shadow">
+            <!--        @@include('html-parts/sidebar.html')-->
+            @@include('html-parts/tornir-table.html')
+        </div>
+    </main>
 
-            @@include('html-parts/header.html')
-        <main class="main">
-            <div class="container container_shadow">
-                <article class="article">
-                    <h2 class="article__title">Грядущии матчи</h2>
-                    <p class="article__content">Информации</p>
-                    <h2 class="article__title1">Прошедшие матчи</h2>
-                    <p class="article__content">Информация<i class="fa fa-smile-o" aria-hidden="true"></i></p>
-                </article>
-            </div>
-        </main>
-        @@include('html-parts/footer.html')
+    @@include('html-parts/footer.html')
     </body>
 </html>
