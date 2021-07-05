@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af3527d0-3d6f-4a47-9761-cc9038325041" name="Default Changelist" comment="Board-score" />
+    <list default="true" id="af3527d0-3d6f-4a47-9761-cc9038325041" name="Default Changelist" comment="Board-score">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +65,7 @@
       <workItem from="1625304551890" duration="9304000" />
       <workItem from="1625395900954" duration="4113000" />
       <workItem from="1625400070126" duration="212000" />
+      <workItem from="1625464468492" duration="5299000" />
     </task>
     <task id="LOCAL-00001" summary="Board-score">
       <created>1625399805422</created>
@@ -83,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625400084474</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Board-score">
+      <created>1625464617291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625464617291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
