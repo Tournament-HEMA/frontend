@@ -2,27 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script src="./assets/js/main.js"></script>
+  <link rel="stylesheet" href="./assets/css/login-form.css">
+
   <title>Title</title>
-  <link rel="stylesheet" href="./assets/css/styles.css">
+
 </head>
 <body>
-<div class="form">
-  <h1>Вход для судей</h1>
-  <div class="input-form">
-    <input type="text" placeholder="Логин">
+</div>
+<div class="form-back">
+  <div class="form">
+    <h1 class="h1-for-judges">Вход для судей</h1>
+    <!--                <label class="label">Email</label>-->
+    <div class=" input-wrapper ">
+      <input type="text" placeholder="Логин">
+    </div>
+    <div class="input-wrapper">
+      <input type="password" id="password" placeholder="Пароль "/>
+      <div class="input-icon" id="icon" onclick="togglePassword()">
+        <img src="./assets/img/118191.png" alt="">
+      </div>
+    </div>
+
+    <div class="input-wrapper-enter">
+      <a class="enter" href="#" type="submit">Войти</a>
+    </div >
+
+
+    <a href="#" class="forget">Забыли пароль?</a>
   </div>
-  <div class="input-form">
-    <input type="password" placeholder="Пароль">
-  </div>
-  <div class="input-form">
-    <input type="submit" value="Войти">
-  </div>
-  <a href="#" class="forget">Забыли пароль?</a>
 </div>
 
-<div class="Button-back">
-  <button> Перейти назад </button>
-</div>
+<!--            <div class="btn btn-outline-danger">-->
+<!--            <a href="#" class="forget">Перейти назад</a>-->
+<!--        </div>-->
 
 </body>
 </html>

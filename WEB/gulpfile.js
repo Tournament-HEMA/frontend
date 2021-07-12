@@ -15,6 +15,7 @@ const gulp = require('gulp'),
 var libs = {
     css: [
         './node_modules/font-awesome/css/font-awesome.min.css',
+        './node_modules/mdb-ui-kit/css/mdb.min.css',
         './node_modules/bootstrap/dist/css/bootstrap.min.css'
     ],
     js: [
