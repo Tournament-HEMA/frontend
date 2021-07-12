@@ -15,6 +15,7 @@ function togglePassword(){
         icon.classList.remove('selected');
     }
 }
+
 // const requestURL=('https://jsonplaceholder.typicode.com/users')
 // function sendRequest(method,url, body = null){
 //     return fetch(url)

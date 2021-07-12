@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+  //background: url('../img/spektr-1920x1080-linii-android-oboi-4k-5k-fioletoviy-fon-11331.jpg') ;
+    height: 2000px;
+}
+
+// Common
+
+
+// Block header
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 5000;
+}
+.menu {
+    .body{
+        font-family: 'Montserrat', sans-serif;
+        background: gray;
+    }
+
+    .nav-item{
+        list-style: none;
+        margin-right: 2rem;
+    }
+    .nav-item a{
+        text-decoration: none;
+        color:black
+    }
+    .nav-item:first-child{
+        margin-right: auto;
+        margin-left: 2rem;
+    }
+    .nav-list{
+        padding-left: 0;
+        height: 50px;
+        background: white;
+        box-shadow: 0 0 10px black;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    &__link {
+        display: block;
+        height: 50px;
+        width: 100px;
+        text-align : center;
+        line-height: 50px ;
+        color:inherit;
+        text-decoration: none;
+        position: relative;
+        &:before{
+            content: attr(text);
+            display:block;
+            border-radius: 5%;
+            position:absolute;
+            top:0px;left:0px;right:0px;bottom:0px;
+            height: 100%;
+            width: 100%;
+            background-color:#bb0d283d;
+            transform: rotateX(-270deg);
+            transform-origin: top;
+            transition: 0.5s;
+            color:white;
+        }
+
+        &:hover:before {
+            transform:rotateX(0deg);
+
+        }
+    }
+}
+.news{
+    padding-bottom: 0;
+    background: black;
+    list-style: none;
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    //text-align: center;
+}
+.read{
+}
+// Block main
+main{
+    height: 2000px;
+    #top{
+        width: auto;
+        height: 764px;
+        background-color:#bb0d283d ;
+        background-blend-mode: multiply;
+        background-size:cover ;
+        background-image: url("../img/bg_4.png")  ;
+        text-align: center;
+    }
+    #top h1{
+        padding-top: 20%;
+    }
+
+
+
+    // Block footer
+    .footer {
+        padding: 10px;
+        &__copyright {
+            display: block;
+            text-align: center;
+            margin: auto;
+            transition: all 0.4s linear;
+            &:hover {
+            }
+        }
+    }
+}
+
+
+
+footer {
+    text-align: center;
+    margin: 1px auto 30px auto;
+    height: 144px;
+}
+
+
+
+
+.form-adding{
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 25px;
+    width: 600px;
+    height: 450px;
+    top: 15%;
+    left: 30%;
+    text-align: center;
+}
+

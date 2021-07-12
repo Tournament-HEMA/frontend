@@ -3,20 +3,18 @@
     <head>
         @@include('html-parts/head-links.html')
         <script src="./assets/js/main.js"></script>
-        <link rel="stylesheet" href="./assets/css/styles.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
         <title>blank.ru</title>
     </head>
+    <header>
+
+    </header>
     <body>
 
-    @@include('html-parts/header.html')
-
-    <main class="main">
-        <div class="container container_shadow">
-            <!--        @@include('html-parts/sidebar.html')-->
-            @@include('html-parts/tornir-table.html')
-        </div>
-    </main>
-
-    @@include('html-parts/footer.html')
+             @@include('html-parts/header.html')
+        <main class="main">
+             @@include('html-parts/main.html')
+        </main>
+         @@include('html-parts/footer.html')
     </body>
 </html>
