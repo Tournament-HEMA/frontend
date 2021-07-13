@@ -1,0 +1,63 @@
+.form-adding {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0 0 15px #a238ce;
+  text-align: center;
+  margin-left: 11%; }
+
+body {
+  background: linear-gradient(90deg, #f598a8, #f6edb2); }
+
+ul li {
+  float: right;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative; }
+
+ul li:hover::after {
+  width: 100%; }
+
+ul li a {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  text-decoration: none;
+  font-size: 15px; }
+
+ul li::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s; }
+
+table {
+  margin: auto;
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, 0.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden; }
+
+td, th {
+  padding: 15px 20px;
+  text-align: center; }
+
+th {
+  background-color: #c429295c;
+  color: #fafafa;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+tr {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif; }
+
+tr:nth-child(even) {
+  background-color: #eeeeee; }
+
+/*# sourceMappingURL=judjes-form.css.map */
