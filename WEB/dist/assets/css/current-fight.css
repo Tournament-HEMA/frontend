@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     text-align: center;
     width: 50%;
-    height: 535px;
+    height: 96.2vh;
     background: #dc002dbd;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9545f', endColorstr='#fc6274',GradientType=0 );
     justify-content: space-around; }
@@ -66,8 +66,8 @@ body {
     margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background: yellow;
     box-shadow: 0px 2px 8px 2px; }

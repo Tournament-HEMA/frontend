@@ -2,11 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 body {
-  background: white; }
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%); }
 
 .form {
   margin-top: 0;
-  background: #1a00c30f;
+  background: #ffffff78;
   box-shadow: 0px 0px 10px black;
   width: 30%;
   border-radius: 2px;

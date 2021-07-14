@@ -1,5 +1,9 @@
+body {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%); }
+
 .form {
-  background: #1a00c30f;
+  background: #ffffff78;
   box-shadow: 0 0 10px black;
   width: 400px;
   border-radius: 2px;

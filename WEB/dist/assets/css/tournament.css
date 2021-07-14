@@ -1,0 +1,28 @@
+body {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%); }
+
+.form-adding {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0 0 15px #a238ce;
+  margin-left: 37%; }
+
+.btn-group button {
+  margin-bottom: 10px;
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%);
+  border: 2px solid black;
+  color: white;
+  padding: 25px 15px;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 9px;
+  margin-left: 35%;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; }
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; }
+
+/*# sourceMappingURL=tournament.css.map */

@@ -3,10 +3,11 @@
   color: white;
   text-shadow: 0 0 15px #a238ce;
   text-align: center;
-  margin-left: 11%; }
+  margin: auto; }
 
 body {
-  background: linear-gradient(90deg, #f598a8, #f6edb2); }
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%); }
 
 ul li {
   float: right;
