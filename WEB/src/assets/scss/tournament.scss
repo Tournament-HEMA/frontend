@@ -6,19 +6,21 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 38%;
+  margin-left: 37%;
 }
 
 .btn-group button {
-  background-color: #80bdff;
-  border: 1px solid black;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, #f498f5, #f5f6b2);
+  border: 2px solid black;
   color: white;
   padding: 25px 15px;
   cursor: pointer;
   width: 20%;
-  display: block;
-  border-radius: 5px;
+  border-radius: 9px;
   margin-left: 35%;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-group button:not(:last-child) {

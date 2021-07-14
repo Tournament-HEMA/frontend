@@ -3,40 +3,38 @@
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 38%;
+  margin-left: 44%;
 }
 
 body{
   background: linear-gradient(90deg, #f598a8, #f6edb2);
 }
 
-ul li {
-  float: right;
+ul{
   list-style: none;
+}
+a {
+  text-shadow:0 0 10px black;
+  float:right;
+  color:white ;
   display: inline-block;
-  padding: 8px 12px;
-  position: relative;
-}
-
-ul li a {
-  font-family: 'Montserrat', sans-serif;
-  color: grey;
   text-decoration: none;
-  font-size: 15px;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
 }
-
-ul li::after {
-  content: '';
-  width: 0;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
+a:hover {
+  background-image:
+          radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+          radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent);
 }
-
-ul li:hover::after {
-  width: 100%;
+a:active {
+  background-image:
+          radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+          linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+          inset rgba(162,95,42,.4) 0 0 0 1px,
+          inset rgba(255,255,255,.9) 0 0 1px 3px;
 }
 table{
   margin:auto;
