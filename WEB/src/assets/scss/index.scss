@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 body {
-  //background: url('../img/spektr-1920x1080-linii-android-oboi-4k-5k-fioletoviy-fon-11331.jpg') ;
-  height: 2000px;
+  height: 1000px;
 }
-
-// Common
-
-
 // Block header
 
 .header {
@@ -72,59 +67,60 @@ body {
     }
   }
 }
-.news{
-  padding-bottom: 0;
-  background: black;
-  list-style: none;
-  text-decoration: none;
-  width: 200px;
-  height: 30px;
-  //text-align: center;
-}
-.read{
-}
+
 // Block main
-main{
-  height: 2000px;
-  #top{
+main {
+  height: 764px;
+
+  #top {
     width: auto;
     height: 764px;
-    background-color:#bb0d283d ;
+    background-color: #bb0d283d;
     background-blend-mode: multiply;
-    background-size:cover ;
-    background-image: url("../img/bg_4.png")  ;
+    background-size: cover;
+    background-image: url("../img/bg_4.png");
     text-align: center;
   }
-  #top h1{
+
+  #top h1 {
     padding-top: 20%;
   }
-
-
-
-  // Block footer
-  .footer {
-    padding: 10px;
-    &__copyright {
-      display: block;
-      text-align: center;
-      margin: auto;
-      transition: all 0.4s linear;
-      &:hover {
-      }
-    }
+}
+// Block footer
+.footer {
+  .sidebar{
+    padding: 50px 10%;
+    box-shadow: 0px 0px 10px;
   }
+
+  .sidebar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+
+  .sidebar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .sidebar ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+
+  .sidebar ul li:hover::after {
+    width: 100%;
+  }
+
 }
-
-
-
-footer {
-  text-align: center;
-  margin: 1px auto 30px auto;
-  height: 144px;
-}
-
-
-
 
 .form-adding{
   position: absolute;
