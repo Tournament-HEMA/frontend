@@ -81,4 +81,10 @@ body {
     font-size: 25px;
     background: white; }
 
+@media (max-width: 1200px) {
+  .button-bar {
+    height: 100px; }
+  .container__left {
+    height: 90vh; } }
+
 /*# sourceMappingURL=current-fight.css.map */

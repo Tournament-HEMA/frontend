@@ -6,9 +6,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 37%; }
+  text-align: center; }
 
-.btn-group button {
+.btn button {
   margin-bottom: 10px;
   background: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%);
@@ -16,13 +16,19 @@ body {
   color: white;
   padding: 25px 15px;
   cursor: pointer;
-  width: 20%;
+  width: 400px;
   border-radius: 9px;
-  margin-left: 35%;
+  margin-left: 40%;
+  margin-right: 40%;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif; }
 
-.btn-group button:not(:last-child) {
-  border-bottom: none; }
+@media (min-width: 300px) and (max-width: 1000px) {
+  .btn button {
+    margin-left: 20%;
+    margin-right: 30%;
+    width: 60%; }
+  .container {
+    zoom: 250%; } }
 
 /*# sourceMappingURL=tournament.css.map */
