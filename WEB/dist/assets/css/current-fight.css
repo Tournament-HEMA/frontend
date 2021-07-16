@@ -2,29 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 body {
   margin: 0;
-  height: 100%; }
+  height: 100vh; }
 
-.container {
+.container-for-fight {
   position: relative; }
-  .container .score-board {
-    display: flex; }
-    .container .score-board__color {
-      font-size: 40px;
-      color: white; }
-    .container .score-board__score {
-      font-size: 220px;
-      color: white; }
-    .container .score-board__name {
-      font-size: 40px;
-      color: white; }
-  .container .button-bar {
-    height: 30px;
+  .container-for-fight .button-bar {
+    height: 50px;
     display: flex;
     justify-content: space-around;
-    background: grey;
-    min-height: 20px; }
-  .container .button {
-    height: 30px;
+    background: grey; }
+  .container-for-fight .button {
+    font-size: 18px;
+    height: 50px;
+    width: 100px;
     border: 2px solid black;
     text-decoration: none;
     border-radius: 30px;
@@ -34,26 +24,38 @@ body {
     transition: 0.5s;
     color: white;
     cursor: pointer; }
-  .container__left {
+  .container-for-fight__left {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 50%;
-    height: 96.2vh;
+    height: 94.7vh;
     background: #dc002dbd;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9545f', endColorstr='#fc6274',GradientType=0 );
     justify-content: space-around; }
-  .container__right {
+  .container-for-fight__right {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 50%;
     background: #0d1ebb7a;
     justify-content: space-around; }
-  .container__absolutetime {
+  .container-for-fight__absolutetime {
     position: relative;
     height: 100%;
     width: 100%; }
+
+.score-board {
+  display: flex; }
+  .score-board__color {
+    font-size: 40px;
+    color: white; }
+  .score-board__score {
+    font-size: 220px;
+    color: white; }
+  .score-board__name {
+    font-size: 40px;
+    color: white; }
 
 .circle {
   display: flex;
@@ -78,13 +80,24 @@ body {
   position: absolute;
   width: 100%; }
   .time__timer {
-    font-size: 25px;
+    font-size: 85px;
     background: white; }
 
-@media (max-width: 1200px) {
-  .button-bar {
-    height: 100px; }
-  .container__left {
-    height: 90vh; } }
+@media (min-width: 700px) and (max-width: 1600px) {
+  .container-for-fight__left {
+    height: 93vh; } }
+
+@media (max-width: 600px) {
+  .circle__circle1 {
+    margin-bottom: 80px; }
+  .time__timer {
+    font-size: 30px; }
+  .score-board__score {
+    font-size: 60px; }
+  .container-for-fight .button-bar {
+    height: 200px;
+    justify-content: center; }
+  .container-for-fight__left {
+    height: 72.9vh; } }
 
 /*# sourceMappingURL=current-fight.css.map */

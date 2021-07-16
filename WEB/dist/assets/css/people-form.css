@@ -2,7 +2,7 @@
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 38%; }
+  margin-left: 30%; }
 
 body {
   background: #eeaeca;
@@ -39,7 +39,8 @@ table {
 
 td, th {
   padding: 15px 20px;
-  text-align: center; }
+  text-align: center;
+  font-size: 15px; }
 
 th {
   background-color: #c429295c;
@@ -54,5 +55,17 @@ tr {
 
 tr:nth-child(even) {
   background-color: #eeeeee; }
+
+@media (max-width: 600px) {
+  ul {
+    float: top; }
+  h1 {
+    width: 100%;
+    padding-top: 15%;
+    font-size: 20px; }
+  .form-adding {
+    margin-left: 10%; }
+  td, th {
+    padding: 15px 0px; } }
 
 /*# sourceMappingURL=people-form.css.map */
