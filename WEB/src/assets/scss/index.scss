@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 body {
-  height: 1000px;
 }
 // Block header
 
@@ -15,7 +14,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: gray;
   }
-
   .nav-item{
     list-style: none;
     margin-right: 2rem;
@@ -68,17 +66,25 @@ body {
   }
 }
 
+@media (max-width:700px) {
+  .nav-item{
+    width: 10%;
+    margin-right: 25% ;
+  }
+
+}
+
+
 // Block main
 main {
-  height: 764px;
 
   #top {
-    width: auto;
-    height: 764px;
+    width: 100%;
+    height: 100vh;
     background-color: #bb0d283d;
     background-blend-mode: multiply;
     background-size: cover;
-    background-image: url("../img/bg_4.png");
+    background-image: url("../img/bg_4.png") ;
     text-align: center;
   }
 

@@ -1,14 +1,15 @@
-
 .form-adding {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 44%;
+  margin-left: 30%;
 }
 
 body{
-  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.4321078773306197) 100%);
 }
+
 
 ul{
   list-style: none;
@@ -36,6 +37,7 @@ a:active {
           inset rgba(162,95,42,.4) 0 0 0 1px,
           inset rgba(255,255,255,.9) 0 0 1px 3px;
 }
+
 table{
   margin:auto;
   width: 60%;
@@ -49,6 +51,7 @@ table{
 td , th{
   padding: 15px 20px;
   text-align: center;
+  font-size: 15px;
 }
 th{
   background-color: #c429295c;
@@ -64,4 +67,21 @@ tr{
 }
 tr:nth-child(even){
   background-color: #eeeeee;
+}
+@media (max-width: 600px) {
+  ul{
+    float: top;
+  }
+  h1{
+    width: 100%;
+    padding-top: 15% ;
+    font-size: 20px;
+  }
+  .form-adding{
+    margin-left: 10%;
+  }
+  td,th{
+    padding: 15px 0px;
+  }
+
 }

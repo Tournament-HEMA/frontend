@@ -1,28 +1,41 @@
 body{
-  background: linear-gradient(90deg, #f598a8, #f6edb2);
+
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.4321078773306197) 100%);
 }
 
 .form-adding {
   font-family: 'Montserrat', sans-serif;
   color: white;
   text-shadow: 0 0 15px #a238ce;
-  margin-left: 37%;
+  text-align: center;
 }
-
-.btn-group button {
+h1{
+  margin-right: 0;
+}
+.btn button {
   margin-bottom: 10px;
-  background: linear-gradient(90deg, #f498f5, #f5f6b2);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.4321078773306197) 100%);
   border: 2px solid black;
   color: white;
   padding: 25px 15px;
   cursor: pointer;
-  width: 20%;
+  width: 400px;
   border-radius: 9px;
-  margin-left: 35%;
+  margin-left: 30%;
+  margin-right: 40%;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
 }
 
-.btn-group button:not(:last-child) {
-  border-bottom: none;
+@media (max-width: 600px) {
+  .btn button {
+    margin-left: 60px;
+    width: 220px;
+    margin-top: 10px;
+  }
+  body {
+    margin-top: 20px;
+  }
 }
