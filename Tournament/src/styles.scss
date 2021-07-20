@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  margin:0;
+  height: 100vh;
+  margin-block-start: 0em;
+}
+h1{
+  margin-block-start: 0;
+}
+
+.form-adding {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0 0 15px #a238ce;
+  margin-left: 30%;
+}
+

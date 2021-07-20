@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af3527d0-3d6f-4a47-9761-cc9038325041" name="Default Changelist" comment="Board-score">
-      <change afterPath="$PROJECT_DIR$/WEB/src/adding-members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/src/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/assets/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tournament/src/app/img/bg_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Judges-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Judges-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Login-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Login-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/People-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/People-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament1.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament2.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament3.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/assets/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judges.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judges.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judjes-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judjes-form.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/current-fight.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/current-fight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/People-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/People-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/head-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/head-links.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tournament" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Yaroslav\Desktop\Создать папку\frontend\WEB\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -87,6 +104,7 @@
       <workItem from="1625400070126" duration="212000" />
       <workItem from="1625464468492" duration="5725000" />
       <workItem from="1625573533536" duration="3533000" />
+      <workItem from="1626604617883" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="Board-score">
       <created>1625399805422</created>

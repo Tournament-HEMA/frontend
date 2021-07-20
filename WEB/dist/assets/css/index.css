@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+body {
+  margin: 0; }
+
 .header {
   position: fixed;
   width: 100%;
-  z-index: 5000; }
+  z-index: 5000;
+  height: 50px; }
 
 .menu .body {
   font-family: 'Montserrat', sans-serif;
@@ -22,6 +26,7 @@
   margin-left: 2rem; }
 
 .menu .nav-list {
+  margin-top: 0;
   padding-left: 0;
   height: 50px;
   background: white;
@@ -73,6 +78,7 @@ main #top {
   text-align: center; }
 
 main #top h1 {
+  margin-top: 0;
   padding-top: 20%; }
 
 .footer .sidebar {
