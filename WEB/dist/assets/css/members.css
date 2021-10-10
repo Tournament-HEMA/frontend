@@ -1,0 +1,66 @@
+body {
+  background: #eeaeca;
+  background: radial-gradient(circle, #eeaeca 0%, rgba(148, 187, 233, 0.432108) 100%); }
+
+.form {
+  background: #ffffff78;
+  box-shadow: 0 0 10px black;
+  width: 400px;
+  border-radius: 2px;
+  margin: auto;
+  text-align: center; }
+
+.h1-for-judges {
+  padding-top: 10%;
+  padding-bottom: 15%;
+  font-size: 150%;
+  text-decoration: none;
+  text-shadow: 1px 1px 15px black;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  text-align: center; }
+
+.input-wrapper {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: #000000 -5px -5px 11px;
+  border-radius: 5px;
+  width: 325px;
+  height: 50px;
+  display: flex;
+  align-items: center; }
+
+.input-wrapper input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  text-indent: 20px;
+  color: black;
+  font-size: 14px;
+  outline: 0; }
+
+.input-wrapper-enter {
+  margin-top: 10%;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: #000000 -2px -2px 10px;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: #b300e0;
+  background: linear-gradient(90deg, #f598a8, #f6edb2); }
+
+.enter {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  cbackground: linear-gradient(90deg, #f598a8, #f6edb2);
+  color: black;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*# sourceMappingURL=members.css.map */

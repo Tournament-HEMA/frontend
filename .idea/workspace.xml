@@ -1,26 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af3527d0-3d6f-4a47-9761-cc9038325041" name="Default Changelist" comment="" />
+    <list default="true" id="af3527d0-3d6f-4a47-9761-cc9038325041" name="Default Changelist" comment="Board-score">
+      <change afterPath="$PROJECT_DIR$/Tournament/src/app/img/bg_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tournament/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tournament/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Judges-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Judges-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Login-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Login-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/People-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/People-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament1.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament2.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/Tournament3.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/Tournament3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/assets/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/assets/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judges.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judges.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judjes-form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/assets/css/judjes-form.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/current-fight.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/current-fight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/People-Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/People-Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/assets/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/assets/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/src/html-parts/head-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/src/html-parts/head-links.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1uLMvb8yV5MgIoo0C9Sp217DYN7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/WEB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tournament" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Yaroslav\Desktop\Создать папку\frontend\WEB\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/WEB/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,10 +98,62 @@
       <option name="presentableId" value="Default" />
       <updated>1624440649912</updated>
       <workItem from="1624440652369" duration="54000" />
+      <workItem from="1625219836560" duration="4930000" />
+      <workItem from="1625304551890" duration="9304000" />
+      <workItem from="1625395900954" duration="4113000" />
+      <workItem from="1625400070126" duration="212000" />
+      <workItem from="1625464468492" duration="5725000" />
+      <workItem from="1625573533536" duration="3533000" />
+      <workItem from="1626604617883" duration="19000" />
     </task>
+    <task id="LOCAL-00001" summary="Board-score">
+      <created>1625399805422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625399805423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Board-score">
+      <created>1625399924306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625399924306</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Board-score">
+      <created>1625400084474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625400084474</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Board-score">
+      <created>1625464617291</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625464617291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Board-score" />
+    <option name="LAST_COMMIT_MESSAGE" value="Board-score" />
   </component>
 </project>

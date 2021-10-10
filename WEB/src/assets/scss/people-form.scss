@@ -1,0 +1,87 @@
+.form-adding {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-shadow: 0 0 15px #a238ce;
+  margin-left: 30%;
+}
+
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.4321078773306197) 100%);
+}
+
+
+ul{
+  list-style: none;
+}
+a {
+  text-shadow:0 0 10px black;
+  float:right;
+  color:white ;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  outline: none;
+  border-radius: 1px;
+}
+a:hover {
+  background-image:
+          radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+          radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent);
+}
+a:active {
+  background-image:
+          radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+          linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+  box-shadow:
+          inset rgba(162,95,42,.4) 0 0 0 1px,
+          inset rgba(255,255,255,.9) 0 0 1px 3px;
+}
+
+table{
+  margin:auto;
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64,64,64,.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+
+}
+td , th{
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+th{
+  background-color: #c429295c;
+  color: #fafafa;
+  font-weight: 200;
+  text-transform: uppercase;
+
+}
+tr{
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+  background-color: #eeeeee;
+}
+@media (max-width: 600px) {
+  ul{
+    float: top;
+  }
+  h1{
+    width: 100%;
+    padding-top: 15% ;
+    font-size: 20px;
+  }
+  .form-adding{
+     margin-left: 10%;
+   }
+    td,th{
+      padding: 15px 0px;
+    }
+
+}
